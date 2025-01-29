@@ -1,0 +1,54 @@
+{
+  /* Option to customise the UI's font (I use the Barlow font) */
+  "custom-ui-style.font.sansSerif": "Barlow",
+
+  /* These ones hide the title bar */
+  "window.titleBarStyle": "native",
+  "custom-ui-style.electron": {
+    "frame": false,
+    "titleBarStyle": "hidden"
+  },
+
+  /* Custom UI Style extension specific to restart the IDE when changing configs */
+  "custom-ui-style.preferRestart": true,
+  "custom-ui-style.reloadWithoutPrompting": true,
+  "workbench.colorTheme": "Min Dark",
+  "workbench.colorCustomizations": {
+    /* Both of these are of Cursor, use the corresponding one to VSCode */
+    "editorCursor.background": "#000",
+    "editorCursor.foreground": "#f18a62",
+    "editor.linkedEditingBackground": "#00000000",
+    "editor.wordHighlightBackground": "#00000000",
+    "editor.wordHighlightTextBackground": "#00000000",
+
+    /* Notice that all of these use my accent colour of choise (orange) and just adjust the opacity throught the last 2 digits */
+    "editor.selectionBackground": "#f18a6224",
+    "editor.selectionHighlightBackground": "#f18a6224",
+    "settings.modifiedItemIndicator": "#f18a62",
+    "editor.wordHighlightStrongBorder": "#00000000",
+    "editor.wordHighlightStrongBackground": "#f18a6224",
+    "editor.hoverHighlightBackground": "#f18a6224",
+    "editor.foldBackground": "#f18a6224",
+    "editor.findMatchBorder": "#f18a62",
+    "editor.findMatchForeground": "#f18a62",
+    "editor.findMatchHighlightForeground": "#f18a62",
+    "editor.findMatchBackground": "#f18a6212",
+    "editor.findMatchHighlightBackground": "#f18a6212",
+    "editor.rangeHighlightBackground": "#f18a6212",
+    "editor.findMatchHighlightBorder": "#f18a6224",
+    "editor.rangeHighlightBorder": "#f18a6224",
+
+    /* 
+    These settings adjust some lists, I may have duplicated them in the CSS
+    file. 
+    */
+    "editorIndentGuide.background1": "#1f1f1f",
+    "editorIndentGuide.activeBackground1": "#545454",
+    "editorActionList.focusBackground": "#bcbbbc",
+    "list.focusBackground": "#bcbbbc",
+    "list.focusForeground": "#000",
+    "quickInputList.focusBackground": "#bcbbbc",
+    "quickInputList.focusForeground": "#000",
+    "settings.focusedRowBackground": "#bcbbbc"
+  }
+}
