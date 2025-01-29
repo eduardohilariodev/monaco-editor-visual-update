@@ -1,10 +1,10 @@
 # Monaco Editors Visual Update Guide
 
+![Monaco Editors Visual Update Guide](./img/hero.png)
+
 This is a series of CSS updates to Monaco-based editors (VSCode, Cursor, etc.)
 that aims to modernise and improve UX, adding rounded curves, blurred
 backgrounds and the sort.
-
-This will involve a multiple fronts, you'll have to:
 
 - [Monaco Editors Visual Update Guide](#monaco-editors-visual-update-guide)
   - [Instructions](#instructions)
@@ -16,6 +16,7 @@ This will involve a multiple fronts, you'll have to:
     - [Add more options to `settings.json`](#add-more-options-to-settingsjson)
     - [Customize the editor's color theme and visual elements by adding these settings](#customize-the-editors-color-theme-and-visual-elements-by-adding-these-settings)
     - [(Option) Create keyboard shortcuts to speed iterations](#option-create-keyboard-shortcuts-to-speed-iterations)
+  - [Contributing](#contributing)
 
 ## Instructions
 
@@ -132,3 +133,19 @@ I use a couple of hotkeys to speed my workflow when adjusting these settings. Yo
     "command": "workbench.action.toggleDevTools"
   },
   ```
+
+3. Open Settings JSON: <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>,</kbd>
+
+  ```json
+  {
+    "command": "workbench.action.openSettingsJson",
+    "key": "ctrl+alt+,"
+  },
+  ```
+
+## Contributing
+
+Feel free to open issues or pull requests with additional settings or improvements. When contributing:
+
+- Keep settings organized by category
+- Include comments explaining the purpose of each setting
