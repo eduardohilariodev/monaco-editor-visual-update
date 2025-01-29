@@ -15,7 +15,7 @@ backgrounds and the sort.
     - [Point to the `styles.css` location on the `settings.json` file](#point-to-the-stylescss-location-on-the-settingsjson-file)
     - [Add more options to `settings.json`](#add-more-options-to-settingsjson)
     - [Customize the editor's color theme and visual elements by adding these settings](#customize-the-editors-color-theme-and-visual-elements-by-adding-these-settings)
-    - [(Option) Create keyboard shortcuts to speed iterations](#option-create-keyboard-shortcuts-to-speed-iterations)
+    - [(Optional) Create keyboard shortcuts to speed iterations](#optional-create-keyboard-shortcuts-to-speed-iterations)
   - [Contributing](#contributing)
 
 ## Instructions
@@ -115,7 +115,7 @@ I use the [Min Theme](https://marketplace.visualstudio.com/items?itemName=miguel
 > [!NOTE]
 > These settings are optimized for the Min Dark theme. If using a different theme, adjust the color values accordingly.
 
-### (Option) Create keyboard shortcuts to speed iterations
+### (Optional) Create keyboard shortcuts to speed iterations
 
 I use a couple of hotkeys to speed my workflow when adjusting these settings. You can configure these both through the `Preferences: Open Keyboard Shortcuts` command or in the `keybindings.json` file through `Preferences: Open Keyboard Shortcuts (JSON)`
 
