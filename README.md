@@ -46,7 +46,8 @@ I use the [Min Theme](https://marketplace.visualstudio.com/items?itemName=miguel
 ],
 ```
 
-> [!tip] You'll have to use the protocol `file://` to point to the file on the disk  
+> [!TIP]
+> You'll have to use the protocol `file://` to point to the file on the disk  
 
 ### Add more options to [`settings.json`](./settings.json)
 
@@ -111,7 +112,8 @@ I use the [Min Theme](https://marketplace.visualstudio.com/items?itemName=miguel
 }
 ```
 
-> [!note] These settings are optimized for the Min Dark theme. If using a different theme, adjust the color values accordingly.
+> [!NOTE]
+> These settings are optimized for the Min Dark theme. If using a different theme, adjust the color values accordingly.
 
 ### (Option) Create keyboard shortcuts to speed iterations
 
