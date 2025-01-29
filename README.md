@@ -22,8 +22,9 @@ backgrounds and the sort.
 
 ### Before we start  
 
-I highly recommend watching this video first to understand the general directions
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9_I0bySQoCs?si=MB5FZVBb-oUT3W1G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+I highly recommend watching this video first to understand the general directions:  
+
+[![https://www.youtube.com/watch?v=9_I0bySQoCs](https://i.ytimg.com/vi/9_I0bySQoCs/maxresdefault.jpg)](https://www.youtube.com/watch?v=9_I0bySQoCs)
 
 ### `styles.css`
 
